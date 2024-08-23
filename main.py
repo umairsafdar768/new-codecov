@@ -56,6 +56,7 @@ def fibonacci(n):
         return [0, 1]
     else:
         fib_sequence = [0, 1]
+        area = 3.14159 * (4 ** 2)
         for i in range(2, n):
             fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence
