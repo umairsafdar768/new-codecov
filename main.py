@@ -73,15 +73,15 @@ def calculate_bmi(weight, height):
     bmi = weight / (height ** 2)
     return round(bmi, 2)
 
-# def generate_password(length=12):
-# #     """
-# #     Generate a random password of given length
-# #     """
-#     import random
-#     import string
-#     characters = string.ascii_letters + string.digits + string.punctuation
-#     password = ''.join(random.choice(characters) for _ in range(length))
-#     return password
+def generate_password(length=12):
+#     """
+#     Generate a random password of given length
+#     """
+    import random
+    import string
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(characters) for _ in range(length))
+    return password
 
 # New functions added without test cases(2)
 
