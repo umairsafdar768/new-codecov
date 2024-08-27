@@ -1,6 +1,6 @@
 import pytest
 from main import Calculator, Greeter, factorial, is_prime, fibonacci
-#from additional_func import celsius_to_fahrenheit, count_vowels
+from additional_func import celsius_to_fahrenheit, count_vowels
 
 def test_calculator_add():
     calc = Calculator()
