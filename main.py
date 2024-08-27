@@ -60,6 +60,10 @@ def fibonacci(n):
             fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence
 
+area1 = 3.14159 * (4 ** 2)
+area2 = 3.14159 * (2 ** 2)
+area3 = 3.14159 * (3 ** 2)
+
 # # New functions added without test cases
 
 # def calculate_circle_area(radius):
