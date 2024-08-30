@@ -62,11 +62,11 @@ def fibonacci(n):
 
 # # New functions added without test cases
 
-# def calculate_circle_area(radius):
-#     if radius <= 0:
-#         raise ValueError("Radius must be greater than zero")
-#     area = 3.14159 * (radius ** 2)
-#     return round(area, 2)
+def calculate_circle_area(radius):
+    if radius <= 0:
+        raise ValueError("Radius must be greater than zero")
+    area = 3.14159 * (radius ** 2)
+    return round(area, 2)
 
 # def calculate_bmi(weight, height):
 #     """
